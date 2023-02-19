@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 18px;
+}
+
+.main {
+  display: flex;
+}
+
+.images {
+  display: flex;
+}
+
+.cards {
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+  color: white;
+}
+
+.bgDesktop {
+  height: 100vh;
+  z-index: -1;
+}
+
+.cardFront {
+  position: absolute;
+  top: 150px;
+  left: 150px;
+}
+
+.cardBack {
+  position: absolute;
+  top: 420px;
+  left: 250px;
+}
+
+.name {
+  position: absolute;
+  top: 350px;
+  left: 190px;
+}
+
+.number {
+  position: absolute;
+  top: 290px;
+  left: 190px;
+  font-size: 30px;
+}
+
+.expiry {
+  position: absolute;
+  top: 350px;
+  left: 490px;
+}
+
+.cardLogo {
+  position: absolute;
+  top: 170px;
+  left: 170px;
+}
+
+.cvv {
+  position: absolute;
+  top: 530px;
+  left: 600px;
+}

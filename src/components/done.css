@@ -1,0 +1,31 @@
+.done {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: hsl(278, 68%, 11%);
+    margin-left: 22vw;
+}
+
+.thankText {
+    font-size: 35px;
+    color: hsl(278, 68%, 11%);
+}
+
+.text {
+    color: hsl(279, 6%, 55%);
+}
+
+.button--continue {
+    height: 50px;
+    width: 290px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: hsl(278, 68%, 11%);
+    color: white;
+    font-size: 14px;
+    margin-top: 40px;
+ }
